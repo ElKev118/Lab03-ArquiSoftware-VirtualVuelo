@@ -4,6 +4,6 @@ metadata:
   name: mysql-config
 data:
   MYSQL_DATABASE: "virtualvuelo"
-  MYSQL_USER: "root"
-  MYSQL_PASSWORD: "root"
+  # MYSQL_USER: "root"  # Comentado - no se puede usar root como MYSQL_USER
+  # MYSQL_PASSWORD: "root"  # Comentado junto con MYSQL_USER
   MYSQL_ROOT_PASSWORD: "root"
